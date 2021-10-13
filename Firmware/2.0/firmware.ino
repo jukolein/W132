@@ -874,7 +874,7 @@ void setup() {
   // unsuccessful 
   //--------------------------------------------------------
 
-  if((WiFi.localIP().toString().equals("(IP unset)"))) { //check if the WiFiManager managed to connect to a network, if not, create an AP
+  if((WiFi.localIP().toString().equals("0.0.0.0"))) { //check if the WiFiManager managed to connect to a network, if not, create an AP
     WiFi.softAP("Windsensor_AP", "123456789");  //create an AP with the SSID "Windsensor_AP" and the password "123456789"
   }
 
@@ -1024,7 +1024,7 @@ void setup() {
   //--------------------------------------------------------
 
   if (blIPblink.equals("geblinkt") and !(WiFi.localIP().toString().equals("(IP unset)"))) {  //if wanted and there is an IP to be blinked, call the function to blink it
-//    ip_blink();  //call the function to blink out the IP
+    ip_blink();  //call the function to blink out the IP
   };
 
 
