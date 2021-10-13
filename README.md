@@ -19,7 +19,7 @@ All the other components are taken from the original sensor. That reduces the ov
 
 The firmware can either work standalone, where the sensor creates an access point that can be used to display the data on a tablet or phone without any further hardware, or be integrated in an existing setup.
 
-This projecj is a continuation of the **[NMEA0182-Windsensor-project](https://github.com/jukolein/NMEA0183-Windsensor)**.
+This project is a continuation of the **[NMEA0182-Windsensor-project](https://github.com/jukolein/NMEA0183-Windsensor)**.
 
 The firmware can either connect the sensor to an existing network or create an access point.
 It has a graphical display of the data and a settings page in English and German.
